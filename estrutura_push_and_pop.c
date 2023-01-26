@@ -83,7 +83,7 @@ int main(){
 
         case 3:
             printf("\n voce escolheu desempilhar: \n");
-            desempilhar(&p);
+            no = desempilhar(&p);
 
             if(no){
                 printf("\nDesempilhando: %d\n", no->valor);
